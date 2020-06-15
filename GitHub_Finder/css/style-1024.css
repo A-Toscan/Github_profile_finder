@@ -1,0 +1,100 @@
+/************* DESKTOP ************/
+
+@media (min-width: 1024px) {
+	
+/************ MENU *************/
+
+	.menu {
+		position: static;
+		background-image: none;
+		background-color: transparent;
+		padding: 0px;
+		margin-right: 20px;
+	}
+
+	.menu li {
+		margin-bottom: 0px;
+		z-index: 100;
+	}
+
+	#x, .fa-bars {
+		display: none;
+	}
+
+	.menu a {
+		font-size: 18px;
+		display: block;
+		padding: 0px;
+		color: lightgrey;
+	}
+
+	.menu a:hover {
+		color: white;
+	}
+
+	.menu ul {
+		display: flex;
+		justify-content: flex-end;	
+	}
+
+	.menu li {
+		font-size: 16px;
+		border-bottom: none;
+	}
+
+/********** TEXTO BANNER ************/
+
+	.center {
+		position: absolute;
+		top:50%;
+		left:41%; 
+		margin: -100px 0 0 -100px;
+		align-items: center;
+		z-index: 999;
+	}
+
+	.texto {
+		padding: 20px 0px;
+	
+	}
+
+	.texto p {
+		font-size: 40px;
+	}
+
+/************ INFO ****************/
+	
+	.info {
+		padding: 80px;
+	}
+
+	.info h2 {
+		font-size: 25px;
+		margin-bottom: 20px;
+		color: white;
+	}
+
+	.info h3 {
+		color: white;
+		font-size: 25;
+	}
+
+	.box {
+		padding: 50px 20px;
+		width: 100%;
+	}
+	.contact {
+		display: flex;
+		justify-content: center;
+	}
+
+/********** FOOTER *******************/
+	
+	footer {
+		display: flex;
+		justify-content: center;
+	}
+	.piede {
+		padding: 0px 20px;
+	}
+}

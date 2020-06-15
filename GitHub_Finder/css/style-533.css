@@ -1,0 +1,61 @@
+/********** TABLET ************/
+
+@media (min-width: 640px) {
+
+/********** TEXTO BANNER ***********/
+
+	.center {
+		position: absolute;
+		top:50%;
+		left:41%; 
+		margin:-100px 0 0 -100px;
+		align-items: center;
+		z-index: 999;
+	}
+	
+	.texto {
+		width: 400px;
+		height: 200px;
+		margin: 0 auto;
+		padding: 10px;
+	
+	}
+
+	.texto p {
+		font-size: 40px;
+	}
+	
+/************ FORM ****************/
+
+	#frame {
+		margin: 30px;
+		width: 70%;
+		height: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+		background-color: #273556;
+	}
+
+
+	.search-field {
+		height: 28px;
+		width: 250px;
+		padding: 10px;
+		border: none;
+		border-radius: 10px;
+		outline: none;
+	}
+
+	.search-button {
+		margin-left: 10px;
+		height: 50px;
+		width: 100px;
+		padding: 10px;
+		border-radius: 15px;
+		background-color: blue;
+		color: white;
+		border-color: blue;
+	}
+	
